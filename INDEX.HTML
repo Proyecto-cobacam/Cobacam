@@ -15,6 +15,29 @@
     <title>INICIO</title>
   </head>
 <body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB4l4hcgxbjW4kB87_CEIlgJM5RfHWJ1Qo",
+    authDomain: "cobacam-ad3c5.firebaseapp.com",
+    databaseURL: "https://cobacam-ad3c5.firebaseio.com",
+    projectId: "cobacam-ad3c5",
+    storageBucket: "cobacam-ad3c5.appspot.com",
+    messagingSenderId: "869128403157",
+    appId: "1:869128403157:web:82746fb9b863eaa4ee8a5c",
+    measurementId: "G-NY5R40N8DJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 <audio src="himno.mp3" autoplay loop></audio>
 <div id="social-bar">
   <a href="https://www.facebook.com/Plantel-03-Esc%C3%A1rcega-1166019543556974/" class="icon icon-facebook" target="_blank"></a>
